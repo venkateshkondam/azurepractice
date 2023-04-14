@@ -1,0 +1,10 @@
+{
+	"name": "LS_PracticeKeyVault",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://venkatPracticeKeyVault.vault.azure.net/"
+		}
+	}
+}
