@@ -1,0 +1,9 @@
+{
+	"name": "myADFEngine-venkat",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b72a8766-f993-49e5-82df-96973f16febb",
+		"tenantId": "d1338013-f863-4126-8dae-bac80beb8713"
+	}
+}
