@@ -1,0 +1,41 @@
+{
+	"name": "demoCities",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_AzureSQLServer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "CityID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CityName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "StateProvinceID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Location",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LatestRecordedPopulation",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LastEditedBy",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "tgt_cities"
+		}
+	}
+}
