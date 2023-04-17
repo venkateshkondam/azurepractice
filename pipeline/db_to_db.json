@@ -43,7 +43,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "demoCities",
+						"referenceName": "AzureSqlTable2",
 						"type": "DatasetReference"
 					}
 				]
