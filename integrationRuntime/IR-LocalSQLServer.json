@@ -1,0 +1,7 @@
+{
+	"name": "IR-LocalSQLServer",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "integration runtime to connect to local sql server"
+	}
+}
